@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+ 
+header{
+    height: 100vh;
+    position: relative;
+    background: url('./backgr.jpg') center center/cover no-repeat;
+    background-position: center;
+}
+#navbar img{
+    width: 80px;
+    margin-left: -150px;
+}
+#navbar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    position: fixed;
+    padding: 0px 302px;
+    z-index: 999;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-primary{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-primary:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+    background: rgb(121, 121, 0);
+}
+
+.btn-secondary{
+    color: #242422;
+    background: rgba(19, 48, 38, 0.613);
+    margin-top: 2rem;
+}
+.btn-secondary:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+    background: rgb(225, 225, 13);
+}
+#navbar ul{
+    display: flex;
+    margin-right: 100px;
+}
+ul{
+    padding-left: 250px;
+}
+#navbar ul li a{
+    padding: 15px 20px;
+    color: white;
+    font-weight: 600;
+}
+#navbar ul li a:hover{
+    border-bottom: 2px solid #e4b95b;
+} 
+
+.primary-text{
+color: yellow;
+}
+.lou{
+    color: rgb(0, 111, 79);
+}
+header .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 75%;
+}
+
+header .content h1{
+    font-size: 40px;
+    color: white;
+}
+header .content p {
+    color: white;
+    margin: 20px 0px 40px;
+}
+header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgb(0, 0, 0, 0.6);
+}
+
+header *{
+    z-index: 10;
+}
+.container{
+    max-width: 1100PX;
+    margin: auto;
+}
+
+.im{
+    width: 320px;
+}
+.im::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgb(0, 0, 0, 0.6);
+}
+#about{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+#about .title,#offers .title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#about h2{
+    font-size: 42px;
+    color: yellow ;
+    margin-bottom: 20px;
+}
+
+#about .title p{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+#about .about-content{
+    display: flex;
+    justify-content: space-between;
+}
+#about .about-content p{
+    color: rgb(30, 31, 30);
+    margin-right: 7rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.im2{
+    width: 700px;
+    margin: 40px 0;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.off{
+        margin-bottom: 4rem;
+        padding-top: 60px;
+        text-align: center;
+        }
+ 
+.tit4{
+    font-size: 28px;
+    color: gold;
+    font-weight: 500;
+    margin-top: -38px ;
+    margin-left: 260px;
+}
+#im22{
+    margin-top: 100px;
+}
+
+.tit3{
+   font-size: 28px; 
+   color: gold;
+   font-weight: 500;
+   margin-top: -38px ;
+   margin-left: 260px;
+}
+.pr{
+    font-size: 20px;
+    color: black;
+    margin: 10px 0;
+    margin-left: 260px;
+}
+.pr2{
+    font-size: 46px;
+    color: black;
+    margin: 10px 0;
+    margin-left: 360px;
+}
+.primary-text{
+    font-size: 47px;
+}
+
+.off{
+    font-size: 42px;
+    color: yellow ;
+}
+
+.mnu{
+    width: 510px;
+    border: 4px solid #d4e216;
+ }
+
+ .menu4{
+   
+    color: yellow;
+    text-align: center;
+    font-size: 44px;
+    margin : 20px 40px;
+    padding-top: 20px;
+ }
+
+ .mnu{
+    margin: 7px 14px;
+ }
+ #menu{
+    background: url('./offer-background.jpg') center center/cover no-repeat;
+    margin-top: 0px;
+}
+
+#contact .container-content .contact-info div {
+    margin: 30px 0;
+    line-height: 1.7; 
+}
+
+.ado{
+    color: gold;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#contact .container-content .contact-info p{
+    color: black;
+}
+#contact .container-content .contact-info a i {
+    color: black;
+    font-size: 30px;
+    margin: 8px;
+}
+
+#contact .container-content .contact-info a i:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+    color: #242422;
+}
+#contact .container{
+    max-width: 900px;
+}
+#contact .container-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contact .container-content .contact-info{
+    width: 50%;
+}
+form{
+    width: 50%;
+}
+
+form input,textarea{
+    display: blokc;
+    width: 100%;
+    padding: 18px 15px;
+    margin: 18px 0;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+.btn2{
+    color:black;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: -15px;
+}
+.btn2:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+    background: rgb(225, 225, 13);
+}
+
+#footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 8px; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
